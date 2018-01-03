@@ -1,0 +1,13 @@
+program Dejan
+const int a=9;
+{
+	void main()
+	int niz[];
+	{
+		niz = new int[2+1];
+		b='d';		// greska pri dodeli vrednosti
+		b=5+'a';	//greska pri sabiranju
+		niz['a']++;	//indeksiranje niza
+		b=8; // greska - b nije deklarisano	
+	}
+}

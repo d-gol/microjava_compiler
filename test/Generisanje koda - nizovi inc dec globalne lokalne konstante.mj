@@ -1,0 +1,22 @@
+program Dejan
+const int N=5, dva=2;
+int a;
+{
+	void main()
+	int niz[];
+	int b;
+	{
+		b=3;
+		niz=new int[N];
+		
+		a=dva*2-3+9/b; //a=4
+		a++;	//a=5
+		
+		niz[3]=a;
+		niz[3]++;	
+		print(niz[3]);	//izlaz = 6
+		read(niz[2]);
+		niz[2]--;
+		print(niz[2]);	//izlaz = ulaz-1
+	}
+}

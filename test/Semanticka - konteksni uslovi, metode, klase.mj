@@ -1,0 +1,41 @@
+program Dejan
+
+class Osoba
+{
+	int godina;
+	{
+		void setGodina(int god){
+			godina=god;
+		}
+		
+		int getGodina(){
+			return godina;
+		}
+	}
+}
+
+{
+
+	int saberi(int a, int b)
+	int rez;
+	{
+		rez=a+b;
+		return rez;
+	}
+	
+	int negiraj(int a){
+		return -a;
+	}
+	
+	void main()
+	Osoba osoba;
+	int br1, br2, br3, niz[];
+	{
+		niz = new int[9];
+		br1 = 55*2 - ord('k');
+		br2 = negiraj(niz[4]);
+
+		br3 = saberi(br1, br2);
+		Osoba.setGodina(br3);
+	}
+}
